@@ -20,9 +20,14 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm run dev`
 
 Runs the app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Also opens the api at [http://localhost:3001](http://localhost:3001)
+Also opens the api at [http://localhost:3001](http://localhost:3001).
+
+### `npm run serve`
+
+Opens theh api at [http://localhost:3001](http://localhost:3001)
+Use Postman to send REST requests to the api.
 
 ### `npm run build`
 
