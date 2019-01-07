@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Status
+
+[![CircleCI](https://circleci.com/gh/jantzeca/Run-Logging-MERN-App/tree/master.svg?style=shield)](https://circleci.com/gh/jantzeca/Run-Logging-MERN-App/tree/master)
 
 ## Available Scripts
 
