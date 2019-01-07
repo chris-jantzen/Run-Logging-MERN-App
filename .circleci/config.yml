@@ -3,8 +3,13 @@ jobs:
   build:
     working_directory: ~/tmp
     docker:
-      - image: circleci/node:8
+    - image: circleci/node:8
     steps:
-      - checkout
-      - run: npm install
-- run: npm run test
+    - checkout
+    - run: npm install
+    - run: npm run test
+workflows:
+  version: 2
+  workflow:
+    jobs:
+    - build
