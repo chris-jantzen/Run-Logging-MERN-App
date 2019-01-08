@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import '../style/AddUser.css'
 
-const userRepository = require('../core/Repositories/userRepository')
-
 class AddUser extends Component {
   constructor(props) {
     super(props)
@@ -26,6 +24,8 @@ class AddUser extends Component {
 
   handleSubmit(e) {
     e.preventDefault()
+
+    // Use axios and express to create new routes for making the backend requests
     
     console.log(`
       ${this.state.firstName}
@@ -35,17 +35,14 @@ class AddUser extends Component {
       ${this.state.weight}
       ${this.state.height}
     `)
-    let userInfo = {
-      firstName: this.state.firstName,
-      lastName: this.state.lastName,
-      age: this.state.age,
-      gender: this.state.gender,
-      weight: this.state.weight,
-      height: this.state.height
-    }
-    userRepository.createUser(userInfo, (err, result) => {
-      err ? console.log(err) : console.log(result)
-    })
+    // let userInfo = {
+    //   firstName: this.state.firstName,
+    //   lastName: this.state.lastName,
+    //   age: this.state.age,
+    //   gender: this.state.gender,
+    //   weight: this.state.weight,
+    //   height: this.state.height
+    // }
   }
 
   handleFirstNameChange(e) {
