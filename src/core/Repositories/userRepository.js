@@ -1,7 +1,5 @@
-const mongoose = require('mongoose')
-const UserSchema = require('../Models/User').UserSchema
 
-const User = mongoose.model('User', UserSchema)
+const User = require('../Models/User').User
 
 const createUser = (userInfo, callback) => {
   const newUser = new User(userInfo)

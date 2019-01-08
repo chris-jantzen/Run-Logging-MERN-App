@@ -1,4 +1,5 @@
-const Schema = require('mongoose').Schema
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
 
 const UserSchema = new Schema({
   firstName: {
@@ -25,6 +26,8 @@ const UserSchema = new Schema({
   }
 })
 
+const User = mongoose.model('User', UserSchema)
+
 module.exports = {
-  UserSchema
+  User
 }

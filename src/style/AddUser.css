@@ -1,0 +1,27 @@
+.AddUser {
+  font-family: "Avenir", "Menlo", "Monaco";
+  text-align: center;
+}
+
+.inputInfo {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 2px;
+}
+
+.inputInfo > h5 {
+  margin-right: 10px;
+}
+
+.inputInfo > input {
+  width: 300px;
+}
+
+.inputForm {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}

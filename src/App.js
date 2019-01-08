@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import MainPage from './Components/MainPage'
+// import MainPage from './Components/MainPage'
+import AddUser from './Components/AddUser'
 import Navbar from './Components/Navbar'
 
 import './App.css';
@@ -14,7 +15,8 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <MainPage />
+        {/* <MainPage /> */}
+        <AddUser />
       </div>
     );
   }
