@@ -28,7 +28,7 @@ Also opens the api at [http://localhost:3001](http://localhost:3001).
 
 ### `npm run serve`
 
-Opens theh api at [http://localhost:3001](http://localhost:3001)
+Opens the api at [http://localhost:3001](http://localhost:3001)
 Use Postman to send REST requests to the api.
 
 ### `npm run build`
